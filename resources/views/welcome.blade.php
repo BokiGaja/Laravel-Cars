@@ -1,7 +1,7 @@
-@extends('layout')
+@extends('layouts.master')
 
 @section('title', 'Cars')
-@section('head')
+@section('body')
     Welcome {{ $name }}
     <br>
     I am {{ $age }} years old

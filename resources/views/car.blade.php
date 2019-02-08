@@ -1,6 +1,6 @@
-@extends('layout')
+@extends('layouts.master')
 
-@section('head')
+@section('body')
         Car: {{ $car->title }}
         <br>
         Producer: {{ $car->producer }}

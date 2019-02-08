@@ -1,7 +1,7 @@
-@extends('layout')
+@extends('layouts.master')
 
 @section('title', 'About')
-@section('head', 'About us')
+@section('body', 'About us')
 
 @section('cars-link')
     <li class="nav-item active">

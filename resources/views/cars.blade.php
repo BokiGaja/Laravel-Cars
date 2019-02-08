@@ -1,6 +1,6 @@
-@extends('layout')
+@extends('layouts.master')
 
-@section('head')
+@section('body')
     @foreach($cars as $car)
         Car: {{ $car->title }}
         <a href="cars/{{ $car->id }}">More info</a>

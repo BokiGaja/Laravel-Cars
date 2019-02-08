@@ -85,7 +85,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            @yield('head')
+            @yield('body')
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Navbar</a>
