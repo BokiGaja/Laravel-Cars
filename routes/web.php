@@ -21,3 +21,4 @@ Route::get('about', function () {
     return view('about');
 });
 
+Route::resource('cars', 'CarsController');
