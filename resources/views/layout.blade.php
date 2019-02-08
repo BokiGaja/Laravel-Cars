@@ -97,9 +97,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/">Home</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="cars">Cars <span class="sr-only">(current)</span></a>
-                    </li>
+                    @yield('cars-link')
                     <li class="nav-item">
                         <a class="nav-link" href="about">About</a>
                     </li>
